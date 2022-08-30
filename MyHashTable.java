@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class hashTable<K, V> {
+public class MyHashTable<K, V> {
     // Node<K, V>[] data;
     ArrayList<ArrayList<Node<K, V>>> data;
-    hashTable(int size) {
+    MyHashTable(int size) {
         this.data = new ArrayList<>(size);
         
     }
